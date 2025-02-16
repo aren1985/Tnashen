@@ -5,8 +5,8 @@ function Footer() {
   return (
     <footer style={footerStyle}>
       <p>
-        <span>Tnashen</span> շինարարական ընկերություն. իրավունքները պաշտպանված
-        են:
+        <span>Tnashen</span> շինարարական ընկերություն. Բոլոր իրավունքները
+        պաշտպանված են:
       </p>
     </footer>
   );
