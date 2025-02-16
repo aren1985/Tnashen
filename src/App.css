@@ -1,0 +1,17 @@
+/* src/App.css */
+.responsive-image {
+  width: 300px; /* Default width */
+  height: 300px; /* Default height */
+  /* Ensure the image covers the area without distortion */
+  margin: 10px 0; /* Add some vertical spacing */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .responsive-image {
+    width: 60%; /* Full width on mobile */
+    height: 200px; /* Adjusted height for mobile */
+    padding: 0 10px; /* Add left and right padding */
+    /* Ensure padding is included in the width */
+  }
+}
