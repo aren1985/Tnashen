@@ -1,4 +1,8 @@
 /* src/index.css */
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
 body {
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
@@ -48,4 +52,21 @@ main {
 img {
   max-width: 100%; /* Ensure images scale down to fit their container */
   height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional styles to prevent overflow */
+.container {
+  width: 100%; /* Ensure container takes full width */
+  overflow: hidden; /* Prevent overflow from child elements */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  header,
+  footer {
+    padding: 5px; /* Adjust padding for mobile */
+  }
+  main {
+    padding: 5px; /* Adjust padding for mobile */
+  }
 }
