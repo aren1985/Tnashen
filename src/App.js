@@ -24,7 +24,7 @@ function App() {
           ծառայությունները, մեր փորձառու և հմուտ վարպետները
           կկառուցեն,կվերակառուցեն,կնորոգեն և կվերանորոգեն ցանկացած շինություն
         </p>
-        <p style={{ fontSize: "30px" }}>հեռաոս (093000000)</p>
+        <p style={{ fontSize: "30px", color: "green" }}>հեռաոս (093000000)</p>
 
         <h2>Որակի ապահովում</h2>
         <img src={qualityImage} alt="qul" className="responsive-image" />
