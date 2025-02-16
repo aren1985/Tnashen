@@ -23,7 +23,7 @@ const headerStyle = {
 
 const titleStyle = {
   margin: 0,
-  paddingLeft: 15,
+  paddingLeft: 30,
   // Remove default margin
 };
 
