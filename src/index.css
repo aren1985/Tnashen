@@ -32,7 +32,7 @@ header,
 footer {
   background: #282c34; /* Example background color */
   color: white; /* Example text color */
-  /* Example padding */
+  padding: 10px; /* Example padding */
   text-align: center; /* Center text */
   width: 100%; /* Ensure full width */
 }
