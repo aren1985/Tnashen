@@ -39,6 +39,8 @@ footer {
   padding: 10px; /* Example padding */
   text-align: center; /* Center text */
   width: 100%; /* Ensure full width */
+  position: relative; /* Ensure proper stacking context */
+  z-index: 1; /* Ensure header/footer is above other content */
 }
 
 /* Ensure main content expands to fill available space */
