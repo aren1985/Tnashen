@@ -40,7 +40,7 @@ footer {
 /* Ensure main content expands to fill available space */
 main {
   flex: 1; /* Allow main to grow and fill available space */
-  padding: 20px; /* Example padding */
+  padding: 10px; /* Example padding */
   text-align: center; /* Center text */
 }
 
