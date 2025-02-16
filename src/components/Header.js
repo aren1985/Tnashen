@@ -15,13 +15,16 @@ const headerStyle = {
   background: "#282c34",
   color: "skyblue",
   padding: "10px",
+
   display: "flex", // Use flexbox for alignment
   alignItems: "center", // Center items vertically
   justifyContent: "space-between", // Space between title and menu
 };
 
 const titleStyle = {
-  margin: 0, // Remove default margin
+  margin: 0,
+  paddingLeft: 15,
+  // Remove default margin
 };
 
 export default Header;
