@@ -1,0 +1,47 @@
+/* About.css */
+
+.about-container {
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  /* Removed background-color to make it transparent */
+}
+
+.about-title {
+  font-size: 2.5rem; /* Larger font size for the title */
+  color: darkmagenta; /* Bright color for the title */
+  text-align: center; /* Center the title */
+  margin-bottom: 10px; /* Space below the title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.about-subtitle {
+  font-size: 1.8rem; /* Slightly smaller than the title */
+  color: darkblue; /* Bright color for the subtitle */
+  text-align: center; /* Center the subtitle */
+  margin-bottom: 20px; /* Space below the subtitle */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.about-list {
+  list-style-type: decimal; /* Use decimal numbers for the list */
+  padding-left: 20px; /* Indent the list */
+  margin-bottom: 20px; /* Space below the list */
+}
+
+.about-list li {
+  margin-bottom: 10px; /* Space between list items */
+  font-size: 1.2rem; /* Increase font size for list items */
+  color: black; /* Color for list items */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.about-description {
+  font-size: 1.2rem; /* Font size for the description */
+  color: black; /* Color for the description */
+  text-align: center; /* Center the description */
+  margin-top: 20px; /* Space above the description */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}

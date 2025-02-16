@@ -1,5 +1,5 @@
-// src/components/Menu.js
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./Menu.css"; // Import your CSS for styling
 
 const Menu = () => {
@@ -28,16 +28,24 @@ const Menu = () => {
         )}
         <ul>
           <li>
-            <a href="/">գլխավոր</a>
+            <Link to="/" onClick={closeMenu}>
+              գլխավոր
+            </Link>
           </li>
           <li>
-            <a href="/about">մեր մասին</a>
+            <Link to="/about" onClick={closeMenu}>
+              մեր մասին
+            </Link>
           </li>
           <li>
-            <a href="/services">մեր աշխատանքները</a>
+            <Link to="/services" onClick={closeMenu}>
+              մեր աշխատանքները
+            </Link>
           </li>
           <li>
-            <a href="/contact">կոնտակտ</a>
+            <Link to="/contact" onClick={closeMenu}>
+              կոնտակտ
+            </Link>
           </li>
         </ul>
       </nav>
