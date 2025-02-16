@@ -24,7 +24,7 @@ function App() {
           ծառայությունները, մեր փորձառու և հմուտ վարպետները
           կկառուցեն,կվերակառուցեն,կնորոգեն և կվերանորոգեն ցանկացած շինություն
         </p>
-        <p style={{ fontSize: "30px", color: "green", fontWeight: "bold" }}>
+        <p style={{ fontSize: "20px", color: "darkblue", fontWeight: "bold" }}>
           հեռախոս (094-67-89-89)
         </p>
 
